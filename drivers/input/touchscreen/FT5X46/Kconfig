@@ -1,6 +1,5 @@
 config TOUCHSCREEN_FT5X46
 	bool "for FT5X46 driver"
 	depends on I2C
-	select TOUCHSCREEN_FT5X46
 	---help---
 	say Y to enable driver for Touchpanel Focal FT5X46
