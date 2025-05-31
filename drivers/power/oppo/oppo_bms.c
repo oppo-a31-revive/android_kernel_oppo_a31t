@@ -13,7 +13,7 @@
 *******************************************************************************/
 
 #define OPPO_BMS_PAR
-#include <oppo_inc.h>
+#include "oppo_inc.h"
 
 int opchg_get_prop_fast_chg_started(struct opchg_charger *chip)
 {

@@ -13,7 +13,7 @@
 *******************************************************************************/
 
 #define OPPO_ADC_PAR
-#include <oppo_inc.h>
+#include "oppo_inc.h"
 
 int opchg_get_prop_charger_voltage_now(struct opchg_charger *chip)
 {

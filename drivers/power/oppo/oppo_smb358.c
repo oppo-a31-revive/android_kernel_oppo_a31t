@@ -13,7 +13,7 @@
 *******************************************************************************/
 
 #define OPPO_SMB358_PAR
-#include <oppo_inc.h>
+#include "oppo_inc.h"
 
 
 int smb358_get_prop_charge_type(struct opchg_charger *chip)

@@ -15,7 +15,7 @@
 *******************************************************************************/
 
 #define OPPO_BQ27541_ENCRYPT_PAR
-#include <oppo_inc.h>
+#include "oppo_inc.h"
 #include <linux/kernel.h>
 
 

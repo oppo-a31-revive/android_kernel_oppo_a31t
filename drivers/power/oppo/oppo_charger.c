@@ -13,7 +13,7 @@
 *******************************************************************************/
 
 #define OPPO_CHARGER_PAR
-#include <oppo_inc.h>
+#include "oppo_inc.h"
 
 
 static int __opchg_read_reg(struct opchg_charger *chip, u8 reg, u8 *val)

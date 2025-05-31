@@ -15,7 +15,7 @@
 *******************************************************************************/
 
 #define OPPO_BQ27541_PAR
-#include <oppo_inc.h>
+#include "oppo_inc.h"
 
 #ifdef VENDOR_EDIT
 extern char *BQ27541_HMACSHA1_authenticate(char *Message,char *Key,char *result);

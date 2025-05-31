@@ -13,7 +13,7 @@
 *******************************************************************************/
 
 #define OPPO_INIT_PAR
-#include <oppo_inc.h>
+#include "oppo_inc.h"
 
 
 int opchg_parse_dt(struct opchg_charger *chip)

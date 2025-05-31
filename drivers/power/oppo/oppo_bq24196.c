@@ -15,7 +15,7 @@
 *******************************************************************************/
 
 #define OPPO_BQ24196_PAR
-#include <oppo_inc.h>
+#include "oppo_inc.h"
 
 void (*enable_aggressive_segmentation_fn)(bool);
 

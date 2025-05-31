@@ -13,7 +13,7 @@
 *******************************************************************************/
 
 #define OPPO_UPPER_PAR
-#include <oppo_inc.h>
+#include "oppo_inc.h"
 
 
 /* add supplied to "bms" function */

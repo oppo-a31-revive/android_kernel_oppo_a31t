@@ -15,7 +15,7 @@
 *******************************************************************************/
  
 #define OPPO_SMB1357_PAR
-#include <oppo_inc.h>
+#include "oppo_inc.h"
 
 
 static int smb1357_per_chg_current[] = {

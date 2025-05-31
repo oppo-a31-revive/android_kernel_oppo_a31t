@@ -32,7 +32,7 @@
 #include <linux/qpnp/qpnp-adc.h>
 #include <mach/oppo_boot_mode.h>
 //#include <linux/boot_mode.h>
-#include <oppo_inc.h>
+#include "oppo_inc.h"
 
 
 #define OPPO_BATTERY_ENCRPTION
