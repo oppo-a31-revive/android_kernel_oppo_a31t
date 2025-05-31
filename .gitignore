@@ -79,3 +79,5 @@ scripts/mod/modpost
 .cache/
 __pycache__/
 *.pyc
+
+build_kernel.sh
