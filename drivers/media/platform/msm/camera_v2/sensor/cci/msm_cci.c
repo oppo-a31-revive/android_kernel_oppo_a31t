@@ -18,6 +18,7 @@
 #include <linux/of_gpio.h>
 #include <linux/of_platform.h>
 #include <media/msm_isp.h>
+#include <media/v4l2-subdev.h>
 #include "msm_sd.h"
 #include "msm_cci.h"
 #include "msm_cam_cci_hwreg.h"
