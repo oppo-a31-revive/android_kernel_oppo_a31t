@@ -1,0 +1,81 @@
+# Build and binary files
+*.o
+*.ko
+*.ko.*
+*.mod
+*.mod.c
+*.a
+*.s
+*.symvers
+*.order
+*.cmd
+*.tmp
+*.tmp_versions
+.*.cmd
+.*.d
+
+# Generated include files
+include/config/
+include/generated/
+arch/*/include/generated/
+
+# Generated kernel files
+vmlinux
+vmlinux.o
+vmlinux.bin
+vmlinux.gz
+System.map
+Module.symvers
+modules.builtin
+
+# Editor and backup files
+*.orig
+*.rej
+*~
+*.bak
+\#*\#
+.\#*
+*.swp
+*.swo
+
+# Kernel build files
+.config
+.config.old
+.version
+.old_version
+
+# Debug info
+*.gcno
+*.gcda
+
+# Signing files
+signing_key.priv
+signing_key.x509
+x509.genkey
+extra_certificates
+signing_key.x509.keyid
+signing_key.x509.signer
+
+# Tool generated files
+tags
+TAGS
+cscope.*
+GPATH
+GTAGS
+GRTAGS
+GSYMS
+
+# Build directories
+/build/
+/out/
+
+# Build tools temporary files
+scripts/basic/fixdep
+scripts/kconfig/conf
+scripts/kconfig/mconf
+scripts/mod/modpost
+
+# Misc
+.cache/
+__pycache__/
+*.pyc
