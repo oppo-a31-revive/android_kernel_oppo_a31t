@@ -166,13 +166,15 @@ config MSM_SPSS
 	  Support for Standby Processing Sub-System (SPSS) module.
 
 config MSM_BUS_SCALING
-	bool "Bus scaling driver"
-	default n
-	help
-		This option enables bus scaling on MSM devices.  Bus scaling
-		allows devices to request the clocks be set to rates sufficient
-		for the active devices needs without keeping the clocks at max
-		frequency when a slower speed is sufficient.
+    bool "MSM Bus Scaling" 
+    depends on ARCH_MSM8916
+    default y
+    help
+      Bus scaling driver for MSM8916
+
+config OF
+    bool "Device Tree and Open Firmware support"
+    default y
 
 config BUS_TOPOLOGY_ADHOC
 	bool "ad-hoc bus scaling topology"

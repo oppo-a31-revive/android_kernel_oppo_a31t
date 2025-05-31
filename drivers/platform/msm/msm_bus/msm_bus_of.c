@@ -148,6 +148,7 @@ err:
 	return NULL;
 }
 
+#if defined(CONFIG_OF) && defined(CONFIG_MSM_BUS_SCALING)
 /**
  * msm_bus_cl_get_pdata() - Generate bus client data from device tree
  * provided by clients.
@@ -236,6 +237,7 @@ void msm_bus_cl_clear_pdata(struct msm_bus_scale_pdata *pdata)
 	kfree(pdata);
 }
 EXPORT_SYMBOL(msm_bus_cl_clear_pdata);
+#endif
 
 static int *get_arr(struct platform_device *pdev,
 		const struct device_node *node, const char *prop,
