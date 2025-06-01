@@ -9,7 +9,6 @@ Project name: 15011 (Chinese) / 15061 (General)
 To build the kernel, use the following commands:
 
 ```bash
-# Example commands (adjust as needed)
 export ARCH=arm
 export CROSS_COMPILE=arm-eabi-
 make a31t_defconfig
