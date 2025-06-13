@@ -12,6 +12,7 @@ apm	Applied Micro Circuits Corporation (APM)
 arm	ARM Ltd.
 atmel	Atmel Corporation
 avago	Avago Technologies
+awinic	AWINIC Technology Co.Ltd
 bosch	Bosch Sensortec GmbH
 brcm	Broadcom Corporation
 capella	Capella Microsystems, Inc.
@@ -21,6 +22,7 @@ cirrus	Cirrus Logic, Inc.
 cortina	Cortina Systems, Inc.
 dallas	Maxim Integrated Products (formerly Dallas Semiconductor)
 denx	Denx Software Engineering
+di	Dyna Image Corporation
 emmicro	EM Microelectronic
 epson	Seiko Epson Corp.
 est	ESTeem Wireless Modems
@@ -39,6 +41,7 @@ invn	InvenSense Inc.
 jdi	Japan Display Inc.
 lattice	Lattice Semiconductor.
 linux	Linux-specific binding
+liteon	Lite-On Technology Corporation
 kionix	Kionix Inc.
 marvell	Marvell Technology Group Ltd.
 maxim	Maxim Integrated Products
@@ -72,6 +75,7 @@ snps 	Synopsys, Inc.
 st	STMicroelectronics
 ste	ST-Ericsson
 stericsson	ST-Ericsson
+synaptics	Synaptics Inc.
 ti	Texas Instruments
 toshiba	Toshiba Corporation
 via	VIA Technologies, Inc.
